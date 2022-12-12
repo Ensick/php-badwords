@@ -1,8 +1,8 @@
 <?php
 
-$cit = 'Tu sei chi scegli e chi cerchi di essere -Cit Hogart (Il Gigante di ferro)';
+    $cit = 'Tu sei chi scegli e chi cerchi di essere -Cit Hogart (Il Gigante di ferro)';
 
-$fraseCit = $_GET['frase'];
+    $fraseCit = $_GET['frase'];
 
 ?>
 
@@ -22,7 +22,7 @@ $fraseCit = $_GET['frase'];
 </form>
 
 <p><?php echo str_replace($fraseCit,'***',$cit);?></p>
-<span><?php echo strlen($cit)?></span>
+<span>Caratteri paragrafo <?php echo strlen($cit)?> </span>
     
 </body>
 </html>
