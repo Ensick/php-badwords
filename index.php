@@ -21,7 +21,8 @@ $fraseCit = $_GET['frase'];
     <button type="submit">Invia</button>
 </form>
 
-<p><?php echo str_replace($fraseCit,'***',$cit);?> </p>
+<p><?php echo str_replace($fraseCit,'***',$cit);?></p>
+<span><?php echo strlen($cit)?></span>
     
 </body>
 </html>
